@@ -1,0 +1,31 @@
+<html>
+<body>
+<form method="post">
+    Enter your name<input type="text" name="username"/><br><br>
+    Enter the email<input type="text" name="email"/><br><br>
+    Enter the empid <input type="text" name="empid"/><br><br>
+    Enter the type of job:
+    <input type="radio" name="job" value="full time">full time
+    <input type="radio" name="job" value="part time">part time<br><br>
+    Enter the Branch:
+    <select name="branch">
+        <option value=""></option>
+        <option value="Sales">sales</option>
+        <option value="Service">Service</option>
+        </select>
+  <br><br>
+    <input type="submit" name="show" value="Show" 
+                formaction="http://localhost:3000/show"/>
+    <input type="submit" name="login" value="Save" 
+                formaction="http://localhost:3000/save"/>
+
+  <input type="submit" name="login" value="update" 
+                formaction="http://localhost:3000/update"/>
+ <input type="submit" name="login" value="delete" 
+                formaction="http://localhost:3000/delete"/>
+
+
+            
+</form>
+</body>
+</html>
